@@ -1,14 +1,13 @@
-# Приложение "Сервис по начислению миль"
+# Приложение "Индекс массы тела"
 
 ## Краткое описание
 
-приложение расчитывет мили, исходя из: за каждые 20 рублей, потраченные на билет, начисляется 1 миля
+приложение расчитывет индекс массы тела, принимая в качестве входных данных вес в ``кг`` и рост в ``м``
 
 ## инструкция
-1. сделать fork [репозитория](https://github.com/GrebenkovaMaria/HW_JavaForQA_4.1)
-2. в IntelliJ IDEA открыть проект с файлами [BonusMileService](https://github.com/GrebenkovaMaria/HW_JavaForQA_4.1/blob/master/src/BonusMilesService.java) и [Main](https://github.com/GrebenkovaMaria/HW_JavaForQA_4.1/blob/master/src/Main.java)
-3. проставить стоимость оплаченного билета в ``Main.java`` после знака равно в строке
-``` int price =  ```
+1. сделать fork [репозитория]()
+2. в IntelliJ IDEA открыть проект с файлами [BmiService]() и [Main]()
+3. проставить строго в указанной последовательности вес и рост  в строке ``double bmi = service.calculate([вес в кг], [рост в м])``  в Main.java
 
 4. запустить код
 
